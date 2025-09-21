@@ -1,7 +1,10 @@
 # Mini 2 - Laser Cutting
 
 ### 1. Rotating Stars
+
 The goal of this design was to create a series of rotated stars with decreasing lengths. This was created by using turtle to create each star, resetting it to the center, then rotating and creating the next star in the same way. First, a single point was created, of which angles were estimated and adjusted based on the result. Each point had to be rotated 36 degrees to the next point (calculated using the geometry of a pentagon). Then, lengths were determined by estimation and a whole star was generated. Geometric calculations has to be done in order to offset each star to a single center (as the design began drawing on one point). Then, lengths were decremented in a loop and the final product was created.
+
+![Windmill_Calculations.jpeg](https://github.com/vish9955/CSCI_4830_Blog/blob/331e1cfebe37c0ab589d75e54f4e388757c8d614/Mini%202/Images/Windmill_Calculations.jpeg)
 ### 2. Landscape
 This design mimicks a watercolor landscape, created using sine waves with a random length. First, a function was created to set the y value of each line using the sine function, passing in the x value and desired sine wave length. A line was drawn from the bottom of the screen to the value, then repeated for the whole sine wave. Then, this pattern was repeated across the screen. The length value was randomized, then a wave was repeated with lower height values each time, incrementing the x values to not overlap the lines.
 ### 3. Recursion Tree
