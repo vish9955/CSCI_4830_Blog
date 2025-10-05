@@ -9,6 +9,7 @@
 <script src="https://gist.github.com/vish9955/599e6084154e2ad5051f54a4288f1047.js"></script>
 
 ### Task 2: Implement the L-System Framework
+
 |Iteration|Output|
 |---------|------|
 |0|F+F+F+F|
