@@ -1,11 +1,13 @@
 # Large 1: L-systems
 
 ### Task 1: Using Turtle in Processing
-![Large_1/Task_1/Images/I.PNG](/Large_1/Task_1/Images/I.PNG)
-![Large_1/Task_1/Images/T.PNG](/Large_1/Task_1/Images/T.PNG)
-![Large_1/Task_1/Images/Triangle.PNG](/Large_1/Task_1/Images/Triangle.PNG)
-![Large_1/Task_1/Images/Pentagon.PNG](/Large_1/Task_1/Images/Pentagon.PNG)
-![Large_1/Task_1/Images/Circle.PNG](/Large_1/Task_1/Images/Circle.PNG)
+
+![Large_1/Task_1/Images/I.PNG](/CSCI_4830_Blog/Large_1/Task_1/Images/I.PNG)
+![Large_1/Task_1/Images/T.PNG](/CSCI_4830_Blog/Large_1/Task_1/Images/T.PNG)
+![Large_1/Task_1/Images/Triangle.PNG](/CSCI_4830_Blog/Large_1/Task_1/Images/Triangle.PNG)
+![Large_1/Task_1/Images/Pentagon.PNG](/CSCI_4830_Blog/Large_1/Task_1/Images/Pentagon.PNG)
+![Large_1/Task_1/Images/Circle.PNG](/CSCI_4830_Blog/Large_1/Task_1/Images/Circle.PNG)
+
 <script src="https://gist.github.com/vish9955/599e6084154e2ad5051f54a4288f1047.js"></script>
 
 ### Task 2: Implement the L-System Framework
@@ -16,10 +18,11 @@
 |1|F+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F|
 |2|F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F|
 |3|F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F-F+F-F-FF+F+F-FF+F-F-FF+F+F-F+F+F-F-FF+F+F-F+F+F-F-FF+F+F-F-F+F-F-FF+F+F-F|
-![Large_1/Task_2/Images/Square_0.PNG](/Large_1/Task_2/Images/Square_0.PNG)
-![Large_1/Task_2/Images/Square_1.PNG](/Large_1/Task_2/Images/Square_1.PNG)
-![Large_1/Task_2/Images/Square_2.PNG](/Large_1/Task_2/Images/Square_2.PNG)
-![Large_1/Task_2/Images/Square_3.PNG](/Large_1/Task_2/Images/Square_3.PNG)
+
+![Large_1/Task_2/Images/Square_0.PNG](/CSCI_4830_Blog/Large_1/Task_2/Images/Square_0.PNG)
+![Large_1/Task_2/Images/Square_1.PNG](/CSCI_4830_Blog/Large_1/Task_2/Images/Square_1.PNG)
+![Large_1/Task_2/Images/Square_2.PNG](/CSCI_4830_Blog/Large_1/Task_2/Images/Square_2.PNG)
+![Large_1/Task_2/Images/Square_3.PNG](/CSCI_4830_Blog/Large_1/Task_2/Images/Square_3.PNG)
 ### Task 3: More L-Systems
 
 The code for these L-systems is given at the bottom of the document, but the rules and axiom for each system are shown below.
@@ -27,6 +30,7 @@ The code for these L-systems is given at the bottom of the document, but the rul
 Koch Snowflake:
 
 F+F+F
+
 F -> F_F+F_F
 
 |Iteration|Generated String|
@@ -35,18 +39,20 @@ F -> F_F+F_F
 |1|F_F+F_F+F_F+F_F+F_F+F_F|
 |2|F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F|
 |3|F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F|
-|4|F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F|
+|4|F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_ F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F _F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F _F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F _F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_ F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_ F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_ F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_ F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_ F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_ F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_ F_F_F+F_F_F_F+F_F+F_F+F_F_F_F+F_F|
 
-![Large_1/Task_3/Snowflake_0.PNG](/Large_1/Task_3/Snowflake_0.PNG)
-![Large_1/Task_3/Snowflake_1.PNG](/Large_1/Task_3/Snowflake_1.PNG)
-![Large_1/Task_3/Snowflake_2.PNG](/Large_1/Task_3/Snowflake_2.PNG)
-![Large_1/Task_3/Snowflake_3.PNG](/Large_1/Task_3/Snowflake_3.PNG)
-![Large_1/Task_3/Snowflake_4.PNG](/Large_1/Task_3/Snowflake_4.PNG)
+![Large_1/Task_3/Snowflake_0.PNG](/CSCI_4830_Blog/Large_1/Task_3/Snowflake_0.PNG)
+![Large_1/Task_3/Snowflake_1.PNG](/CSCI_4830_Blog/Large_1/Task_3/Snowflake_1.PNG)
+![Large_1/Task_3/Snowflake_2.PNG](/CSCI_4830_Blog/Large_1/Task_3/Snowflake_2.PNG)
+![Large_1/Task_3/Snowflake_3.PNG](/CSCI_4830_Blog/Large_1/Task_3/Snowflake_3.PNG)
+![Large_1/Task_3/Snowflake_4.PNG](/CSCI_4830_Blog/Large_1/Task_3/Snowflake_4.PNG)
 
 Olive Branch:
 
 F
+
 F -> F[-FC]F[+F][++FC]
+
 C -> [_F][--F]
 
 |Iteration|Generated String|
@@ -56,14 +62,15 @@ C -> [_F][--F]
 |2|F[-FC]F[+F][++FC][-F[-FC]F[+F][++FC][_F][--F]]F[-FC]F[+F][++FC][+F[-FC]F[+F][++FC]][++F[-FC]F[+F][++FC][_F][--F]]|
 |3|F[-FC]F[+F][++FC][-F[-FC]F[+F][++FC][_F][--F]]F[-FC]F[+F][++FC][+F[-FC]F[+F][++FC]][++F[-FC]F[+F][++FC][_F][--F]][-F[-FC]F[+F][++FC][-F[-FC]F[+F][++FC][_F][--F]]F[-FC]F[+F][++FC][+F[-FC]F[+F][++FC]][++F[-FC]F[+F][++FC][_F][--F]][_F[-FC]F[+F][++FC]][--F[-FC]F[+F][++FC]]]F[-FC]F[+F][++FC][-F[-FC]F[+F][++FC][_F][--F]]F[-FC]F[+F][++FC][+F[-FC]F[+F][++FC]][++F[-FC]F[+F][++FC][_F][--F]][+F[-FC]F[+F][++FC][-F[-FC]F[+F][++FC][_F][--F]]F[-FC]F[+F][++FC][+F[-FC]F[+F][++FC]][++F[-FC]F[+F][++FC][_F][--F]]][++F[-FC]F[+F][++FC][-F[-FC]F[+F][++FC][_F][--F]]F[-FC]F[+F][++FC][+F[-FC]F[+F][++FC]][++F[-FC]F[+F][++FC][_F][--F]][_F[-FC]F[+F][++FC]][--F[-FC]F[+F][++FC]]]|
 
-![Large_1/Task_3/Branch_0.PNG](/Large_1/Task_3/Branch_0.PNG)
-![Large_1/Task_3/Branch_1.PNG](/Large_1/Task_3/Branch_3.PNG)
-![Large_1/Task_3/Branch_2.PNG](/Large_1/Task_3/Branch_2.PNG)
-![Large_1/Task_3/Branch_3.PNG](/Large_1/Task_3/Branch_3.PNG)
+![Large_1/Task_3/Branch_0.PNG](/CSCI_4830_Blog/Large_1/Task_3/Branch_0.PNG)
+![Large_1/Task_3/Branch_1.PNG](/CSCI_4830_Blog/Large_1/Task_3/Branch_1.PNG)
+![Large_1/Task_3/Branch_2.PNG](/CSCI_4830_Blog/Large_1/Task_3/Branch_2.PNG)
+![Large_1/Task_3/Branch_3.PNG](/CSCI_4830_Blog/Large_1/Task_3/Branch_3.PNG)
 
 Tree:
 
 F
+
 F -> F[-BFA][+BFA][BFA]
 
 |Iteration|Generated String|
@@ -75,20 +82,20 @@ F -> F[-BFA][+BFA][BFA]
 
 *For simplicity, further iteration strings are not shown. However, the pictures are still added below until the fabricated iteration (6).
 
-![Large_1/Task_3/Tree_0.PNG](/Large_1/Task_3/Tree_0.PNG)
-![Large_1/Task_3/Tree_1.PNG](/Large_1/Task_3/Tree_1.PNG)
-![Large_1/Task_3/Tree_2.PNG](/Large_1/Task_3/Tree_2.PNG)
-![Large_1/Task_3/Tree_3.PNG](/Large_1/Task_3/Tree_3.PNG)
-![Large_1/Task_3/Tree_4.PNG](/Large_1/Task_3/Tree_4.PNG)
-![Large_1/Task_3/Tree_5.PNG](/Large_1/Task_3/Tree_5.PNG)
-![Large_1/Task_3/Tree_6.PNG](/Large_1/Task_3/Tree_6.PNG)
+![Large_1/Task_3/Tree_0.PNG](/CSCI_4830_Blog/Large_1/Task_3/Tree_0.PNG)
+![Large_1/Task_3/Tree_1.PNG](/CSCI_4830_Blog/Large_1/Task_3/Tree_1.PNG)
+![Large_1/Task_3/Tree_2.PNG](/CSCI_4830_Blog/Large_1/Task_3/Tree_2.PNG)
+![Large_1/Task_3/Tree_3.PNG](/CSCI_4830_Blog/Large_1/Task_3/Tree_3.PNG)
+![Large_1/Task_3/Tree_4.PNG]/CSCI_4830_Blog/Large_1/Task_3/Tree_4.PNG)
+![Large_1/Task_3/Tree_5.PNG](/CSCI_4830_Blog/Large_1/Task_3/Tree_5.PNG)
+![Large_1/Task_3/Tree_6.PNG](/CSCI_4830_Blog/Large_1/Task_3/Tree_6.PNG)
 
 ### Task 4: Fabrication
 
 The two fabricated designs, the branch and tree, were laser cut onto cardboard. These designs are shown below. They appear very similar to the generated designs, imported as svgs. Overall, the results are as expected. As I've never laser cut on cardboard before this, it took a couple iterations of cutting to determine the optimal line width to get the engraving to show up on cardboard, and even so the mark is not as dark as with wood or acrylic. Nevertheless, these fabricated objects matched well with the fabricated designs.
 
-![Large_1/Task_4/Branch.jpeg](/Large_1/Task_4/Branch.jpeg)
-![Large_1/Task_4/Tree.jpeg](/Large_1/Task_4/Tree.jpeg)
+![Large_1/Task_4/Branch.jpeg](/CSCI_4830_Blog/Large_1/Task_4/Branch.jpeg)
+![Large_1/Task_4/Tree.jpeg](/CSCI_4830_Blog/Large_1/Task_4/Tree.jpeg)
 
 ### Code Documentation
 
