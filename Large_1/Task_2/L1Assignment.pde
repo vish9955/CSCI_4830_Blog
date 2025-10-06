@@ -39,7 +39,7 @@ void setup() {
   //lSys = kochSnowflake();
   //lSys = branch();
   lSys = tree();
-  //lSys = spiral();
+  lSys = branchProb();
   
   // Don't loop the draw function
   noLoop();

@@ -80,3 +80,18 @@ LSystem tree() {
   
 //  return new LSystem(axiom, rules, moveDist, rotateAngle, scaleFactor);
 //}
+
+ProbabilisticLSystem branchProb() {
+  float moveDist = 20;
+  float rotateAngle = 40;
+  float scaleFactor = 0;
+  
+  String axiom = "F";
+  
+  HashMap<Character, String[]> rules = new HashMap<>();
+  //String[] output = {"F[+F]F[-F][--F]"};
+  String[] output = {"G[_G]G[=G]"};
+  rules.put('G', output);
+  
+  return new ProbabilisticLSystem(axiom, rules, moveDist, rotateAngle, scaleFactor);
+}
