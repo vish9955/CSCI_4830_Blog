@@ -86,11 +86,11 @@ ProbabilisticLSystem branchProb() {
   float rotateAngle = 40;
   float scaleFactor = 0;
   
-  String axiom = "F";
+  String axiom = "G";
   
   HashMap<Character, String[]> rules = new HashMap<>();
   //String[] output = {"F[+F]F[-F][--F]"};
-  String[] output = {"G[_G]G[=G]"};
+  String[] output = {"G[_G]G[=G]", "G[=G]", "G[_G]"};
   rules.put('G', output);
   
   return new ProbabilisticLSystem(axiom, rules, moveDist, rotateAngle, scaleFactor);

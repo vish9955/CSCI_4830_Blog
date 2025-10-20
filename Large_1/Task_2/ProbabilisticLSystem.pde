@@ -82,6 +82,7 @@ class ProbabilisticLSystem extends BaseLSystem {
         break;
       case '=':
         t.left(angle);
+        break;
       case '[':
         t.push();
         break;
