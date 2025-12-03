@@ -2,4 +2,4 @@
 ![Final_Project/IMG_7864.jpg](/CSCI_4830_Blog/Final_Project/IMG_7864.jpg)
 # Generated Design 2: Bounding Box [(-40,-40,-40) to (40,40,40)]
 ![Final_Project/IMG_7863.jpg](/CSCI_4830_Blog/Final_Project/IMG_7863.jpg)
-![Final_Project/IMG_7863.jpg](/CSCI_4830_Blog/Final_Project/IMG_7863.jpg)
+![Final_Project/IMG_7862.jpg](/CSCI_4830_Blog/Final_Project/IMG_7862.jpg)
