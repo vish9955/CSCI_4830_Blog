@@ -65,11 +65,11 @@ Bounding was intially conducted with the WithinBounds function, where I manually
 <!-- ### The code
 
 Essentially, this code generates lines recursively towards two points. Once the point is reached, the points change to the same point. Line generation is governed by a certain amount of randomness as well as the 3D distance between the starting and ending points. -->
-
+<!-- 
 #### RecGen Code
 
 ![Final_Project/Mid_2.PNG](/CSCI_4830_Blog/Final_Project/Mid_2.PNG)
-![Final_Project/Mid_3.PNG](/CSCI_4830_Blog/Final_Project/Mid_3.PNG)
+![Final_Project/Mid_3.PNG](/CSCI_4830_Blog/Final_Project/Mid_3.PNG) -->
 
 <!-- ### Next Steps (in no particular order)
 
@@ -85,9 +85,11 @@ Anything else? -->
 
 # Documentation
 
-![Final_Project/Grasshopper_Screenshot.PNG](/CSCI_4830_Blog/Final_Project/Grasshopper_Screenshot.PNG)
+![Final_Project/Grasshopper_Screenshot.PNG](/CSCI_4830_Blog/Final_Project/Grasshopper_Screenshot.png)
 
 [Grasshopper_File](/CSCI_4830_Blog/Final_Project/Vessels_V1.gh)
+
+
 [Final_Project_Folder](https://github.com/vish9955/CSCI_4830_Blog/tree/main/Final_Project)
 
 <script src="https://gist.github.com/vish9955/2eb1eb4ae4c4148977d942406441ff3c.js"></script>
